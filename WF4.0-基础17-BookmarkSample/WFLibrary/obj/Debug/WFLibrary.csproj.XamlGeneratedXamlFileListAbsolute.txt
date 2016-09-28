@@ -1,0 +1,5 @@
+obj\Debug\noResultBookmarkWorkflow.g.xaml
+obj\Debug\resultBookmarkWorkflow.g.xaml
+obj\Debug\parallelBookmarkWorkflow.g.xaml
+obj\Debug\ParallelForEachWorkflow.g.xaml
+obj\Debug\ForEachWorkflow.g.xaml

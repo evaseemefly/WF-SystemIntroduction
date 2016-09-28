@@ -1,0 +1,4 @@
+obj\Debug\ParallelWorkflow.g.xaml
+obj\Debug\ParallelCompletionConditionWorkflow.g.xaml
+obj\Debug\ParallelForEachWorkflow.g.xaml
+obj\Debug\PickWorkflow.g.xaml

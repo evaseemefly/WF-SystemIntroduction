@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:ParallelForEachWorkflow mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:local="clr-namespace:WFLibrary;assembly=WFLibrary" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="clr-namespace:Microsoft.VisualBasic;assembly=System" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:s1="clr-namespace:System;assembly=mscorlib" xmlns:s2="clr-namespace:System;assembly=System" xmlns:s3="clr-namespace:System;assembly=System.Xml" xmlns:s4="clr-namespace:System;assembly=System.Core" xmlns:sad="clr-namespace:System.Activities.Debugger;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System" xmlns:scg1="clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:scg2="clr-namespace:System.Collections.Generic;assembly=System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:scg3="clr-namespace:System.Collections.Generic;assembly=System.ServiceModel" xmlns:scg4="clr-namespace:System.Collections.Generic;assembly=System.Core" xmlns:scg5="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data.DataSetExtensions" xmlns:sl="clr-namespace:System.Linq;assembly=System.Core" xmlns:st="clr-namespace:System.Text;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <local:ParallelForEachWorkflow.Implementation>
+    <Sequence DisplayName="SequenceA" sad:XamlDebuggerXmlReader.FileName="d:\users\wxd\documents\visual studio 2010\Projects\BookmarkSample\WFLibrary\ParallelForEachWorkflow.xaml">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="scg:SortedSet(x:String)" Default="[New SortedSet(Of String)]" Name="myResultList" />
+      </Sequence.Variables>
+      <WriteLine Text="请触发Bookmark" />
+      <ParallelForEach x:TypeArguments="x:String" DisplayName="ParallelForEach&lt;String&gt;" Values="[myNameList]">
+        <ActivityAction x:TypeArguments="x:String">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="SequenceB">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="myResult" />
+            </Sequence.Variables>
+            <local:resultBookmark x:TypeArguments="x:String" DisplayName="resultBookmark" Result="[myResult]" bookmarkName="[item]" />
+            <WriteLine Text="[item + &quot;:&quot; + myResult]" />
+            <AddToCollection x:TypeArguments="x:String" Collection="[myResultList]" DisplayName="AddToCollection&lt;String&gt;" Item="[item + &quot;:&quot; + myResult]" />
+          </Sequence>
+        </ActivityAction>
+      </ParallelForEach>
+      <WriteLine Text="Bookmark已触发" />
+      <ForEach x:TypeArguments="x:String" DisplayName="ForEach&lt;String&gt;" Values="[myResultList]">
+        <ActivityAction x:TypeArguments="x:String">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:String" Name="item" />
+          </ActivityAction.Argument>
+          <WriteLine Text="[item]" />
+        </ActivityAction>
+      </ForEach>
+    </Sequence>
+  </local:ParallelForEachWorkflow.Implementation>
+</local:ParallelForEachWorkflow>

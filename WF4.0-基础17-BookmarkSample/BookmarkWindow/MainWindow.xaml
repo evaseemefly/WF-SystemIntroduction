@@ -1,0 +1,12 @@
+﻿<Window x:Class="BookmarkWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="391" Width="525">
+    <Canvas>
+        <Button Canvas.Left="12" Canvas.Top="22" Content="无返回值Bookmark" Height="37" Name="button_debugnoResultBookmarkWorkflow" Width="303" Click="button_debugnoResultBookmarkWorkflow_Click" />
+        <Button Canvas.Left="15" Canvas.Top="79" Content="有返回值Bookmark" Height="44" Name="button_debugresultBookmarkWorkflow" Width="301" Click="button_debugresultBookmarkWorkflow_Click" />
+        <Button Canvas.Left="17" Canvas.Top="143" Content="在parallel中使用Bookmark" Height="49" Name="button_debugparallelBookmarkWorkflow" Width="299" Click="button_debugparallelBookmarkWorkflow_Click" />
+        <Button Canvas.Left="19" Canvas.Top="214" Content="在ParallelForEach中使用Bookmark" Height="48" Name="button_debugParallelForEachWorkflow" Width="296" Click="button_debugParallelForEachWorkflow_Click" />
+        <Button Canvas.Left="19" Canvas.Top="279" Content="在ForEach中使用Bookmark" Height="52" Name="button_debugforEachWorkflow" Width="296" Click="button_debugforEachWorkflow_Click" />
+    </Canvas>
+</Window>

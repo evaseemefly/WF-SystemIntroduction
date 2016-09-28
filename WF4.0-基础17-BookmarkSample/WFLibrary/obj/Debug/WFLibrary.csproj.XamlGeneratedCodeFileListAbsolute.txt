@@ -1,0 +1,6 @@
+obj\Debug\_WFLibrary.g.cs
+obj\Debug\noResultBookmarkWorkflow.g.cs
+obj\Debug\resultBookmarkWorkflow.g.cs
+obj\Debug\parallelBookmarkWorkflow.g.cs
+obj\Debug\ParallelForEachWorkflow.g.cs
+obj\Debug\ForEachWorkflow.g.cs

@@ -1,0 +1,6 @@
+obj\Debug\_ExceptionWorkflow.g.cs
+obj\Debug\ThrowWorkflow.g.cs
+obj\Debug\ExceptionActivityWorkflow.g.cs
+obj\Debug\TryCatchWorkflow.g.cs
+obj\Debug\RethrowWorkflow.g.cs
+obj\Debug\TerminateWorkflow.g.cs

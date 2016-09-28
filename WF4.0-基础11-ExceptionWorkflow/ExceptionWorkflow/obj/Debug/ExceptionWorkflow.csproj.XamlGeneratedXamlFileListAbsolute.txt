@@ -1,0 +1,5 @@
+obj\Debug\ThrowWorkflow.g.xaml
+obj\Debug\ExceptionActivityWorkflow.g.xaml
+obj\Debug\TryCatchWorkflow.g.xaml
+obj\Debug\RethrowWorkflow.g.xaml
+obj\Debug\TerminateWorkflow.g.xaml

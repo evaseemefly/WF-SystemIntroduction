@@ -1,0 +1,5 @@
+obj\Debug\_controlActivitySample2.g.cs
+obj\Debug\ParallelWorkflow.g.cs
+obj\Debug\ParallelCompletionConditionWorkflow.g.cs
+obj\Debug\ParallelForEachWorkflow.g.cs
+obj\Debug\PickWorkflow.g.cs
