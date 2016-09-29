@@ -1,0 +1,31 @@
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.exe
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.pdb
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\MainWindow.baml
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\MainWindow.g.cs
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\App.g.cs
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client_MarkupCompile.cache
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.g.resources
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.Properties.Resources.resources
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\GenerateResource.write.1.tlog
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.exe
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.pdb
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.exe.config
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.exe.config
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.exe
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.exe
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\MainWindow.baml
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\MainWindow.g.cs
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\App.g.cs
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client_MarkupCompile.cache
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.g.resources
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.Properties.Resources.resources
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\02编程\2016年\01协同开发\别人的一些源码\WF-系统介绍\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\bin\Debug\WcfWfDataLayerSample.Client.exe.config
+D:\02编程\2016年\01协同开发\别人的一些源码\WF-系统介绍\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.exe
+D:\02编程\2016年\01协同开发\别人的一些源码\WF-系统介绍\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.Client\obj\x86\Debug\WcfWfDataLayerSample.Client.pdb

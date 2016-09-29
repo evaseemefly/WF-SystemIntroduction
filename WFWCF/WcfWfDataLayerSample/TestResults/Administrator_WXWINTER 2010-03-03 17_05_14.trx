@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="da421068-3eda-4794-8808-764c1ad9e16f" name="Administrator@WXWINTER 2010-03-03 17:05:14" runUser="WXWINTER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dbe38011-5b33-4f3e-92d8-df443f73f504">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WXWINTER 2010-03-03 17_05_14" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-03-03T17:05:14.7429746+08:00" queuing="2010-03-03T17:05:14.7539746+08:00" start="2010-03-03T17:05:14.7739746+08:00" finish="2010-03-03T17:05:15.2009746+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="checkRowIDinTabBTest" storage="e:\myconfig\documents\visual studio 2010\projects\wcfwfdatalayersample\testproject1\bin\debug\testproject1.dll" id="c706a0eb-0c84-adf9-b59d-8a3ab9e78a4b">
+      <Execution id="b394d83e-71ee-4456-9a9e-f26d9364c7d5" />
+      <TestMethod codeBase="e:/myconfig/documents/visual studio 2010/Projects/WcfWfDataLayerSample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.dbManageTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkRowIDinTabBTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c706a0eb-0c84-adf9-b59d-8a3ab9e78a4b" executionId="b394d83e-71ee-4456-9a9e-f26d9364c7d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b394d83e-71ee-4456-9a9e-f26d9364c7d5" testId="c706a0eb-0c84-adf9-b59d-8a3ab9e78a4b" testName="checkRowIDinTabBTest" computerName="WXWINTER" duration="00:00:00.0688241" startTime="2010-03-03T17:05:14.7879746+08:00" endTime="2010-03-03T17:05:15.1719746+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b394d83e-71ee-4456-9a9e-f26d9364c7d5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at TestProject1.dbManageTest.checkRowIDinTabBTest() in e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\dbManageTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

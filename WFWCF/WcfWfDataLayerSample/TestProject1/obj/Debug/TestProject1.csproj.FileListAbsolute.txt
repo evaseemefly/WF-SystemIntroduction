@@ -1,0 +1,14 @@
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\bin\Debug\TestProject1.dll
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\bin\Debug\TestProject1.pdb
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\bin\Debug\WcfWfDataLayerSample.DB.dll
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\bin\Debug\WcfWfDataLayerSample.DB.pdb
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\obj\Debug\TestProject1.dll
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\obj\Debug\TestProject1.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\bin\Debug\TestProject1.dll
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\bin\Debug\TestProject1.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\bin\Debug\WcfWfDataLayerSample.DB.dll
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\bin\Debug\WcfWfDataLayerSample.DB.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\obj\Debug\TestProject1.dll
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\TestProject1\obj\Debug\TestProject1.pdb

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c69c8f9a-cd23-4dd3-a901-006257c04f2b" name="Administrator@WXWINTER 2010-03-03 16:59:03" runUser="WXWINTER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dbe38011-5b33-4f3e-92d8-df443f73f504">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WXWINTER 2010-03-03 16_59_03" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-03-03T16:59:03.4719746+08:00" queuing="2010-03-03T16:59:03.7009746+08:00" start="2010-03-03T16:59:03.7609746+08:00" finish="2010-03-03T16:59:04.8629746+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="checkIDinTabATest" storage="e:\myconfig\documents\visual studio 2010\projects\wcfwfdatalayersample\testproject1\bin\debug\testproject1.dll" id="cbabe96b-de20-68da-66fe-34b8428ab706">
+      <Execution id="97b145d5-af5e-4f1d-b80d-a2db2afe3e4d" />
+      <TestMethod codeBase="e:/myconfig/documents/visual studio 2010/Projects/WcfWfDataLayerSample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.dbManageTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkIDinTabATest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cbabe96b-de20-68da-66fe-34b8428ab706" executionId="97b145d5-af5e-4f1d-b80d-a2db2afe3e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="97b145d5-af5e-4f1d-b80d-a2db2afe3e4d" testId="cbabe96b-de20-68da-66fe-34b8428ab706" testName="checkIDinTabATest" computerName="WXWINTER" duration="00:00:00.4922394" startTime="2010-03-03T16:59:03.7799746+08:00" endTime="2010-03-03T16:59:04.7599746+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97b145d5-af5e-4f1d-b80d-a2db2afe3e4d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.dbManageTest.checkIDinTabATest threw exception: 
+System.Data.SqlClient.SqlException: 用户 '' 登录失败。</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at WcfWfDataLayerSample.DB.dbManage.checkIDinTabA(String ID) in e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.DB\dbManage.cs:line 16
+   at TestProject1.dbManageTest.checkIDinTabATest() in e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\dbManageTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

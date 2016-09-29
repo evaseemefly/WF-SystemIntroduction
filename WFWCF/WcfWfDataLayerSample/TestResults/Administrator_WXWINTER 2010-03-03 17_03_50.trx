@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d0dbd702-6193-4fe8-bb93-240923468fbe" name="Administrator@WXWINTER 2010-03-03 17:03:50" runUser="WXWINTER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dbe38011-5b33-4f3e-92d8-df443f73f504">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WXWINTER 2010-03-03 17_03_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-03-03T17:03:50.2449746+08:00" queuing="2010-03-03T17:03:50.2889746+08:00" start="2010-03-03T17:03:50.4109746+08:00" finish="2010-03-03T17:03:52.5399746+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="checkRowIDinTabBTest" storage="e:\myconfig\documents\visual studio 2010\projects\wcfwfdatalayersample\testproject1\bin\debug\testproject1.dll" id="c706a0eb-0c84-adf9-b59d-8a3ab9e78a4b">
+      <Execution id="d6c7a6e6-f1bd-4890-9550-24a0287a1298" />
+      <TestMethod codeBase="e:/myconfig/documents/visual studio 2010/Projects/WcfWfDataLayerSample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.dbManageTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkRowIDinTabBTest" />
+    </UnitTest>
+    <UnitTest name="checkIDinTabATest" storage="e:\myconfig\documents\visual studio 2010\projects\wcfwfdatalayersample\testproject1\bin\debug\testproject1.dll" id="cbabe96b-de20-68da-66fe-34b8428ab706">
+      <Execution id="cc1354c0-ce5c-484a-aeb0-448e70e880cf" />
+      <TestMethod codeBase="e:/myconfig/documents/visual studio 2010/Projects/WcfWfDataLayerSample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.dbManageTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkIDinTabATest" />
+    </UnitTest>
+    <UnitTest name="insertTabBTest" storage="e:\myconfig\documents\visual studio 2010\projects\wcfwfdatalayersample\testproject1\bin\debug\testproject1.dll" id="6e2f48f0-d5b6-a911-fcf8-1fe0126d5723">
+      <Execution id="69aa656d-04f7-4811-acb9-d308ff435d40" />
+      <TestMethod codeBase="e:/myconfig/documents/visual studio 2010/Projects/WcfWfDataLayerSample/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.dbManageTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="insertTabBTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6e2f48f0-d5b6-a911-fcf8-1fe0126d5723" executionId="69aa656d-04f7-4811-acb9-d308ff435d40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c706a0eb-0c84-adf9-b59d-8a3ab9e78a4b" executionId="d6c7a6e6-f1bd-4890-9550-24a0287a1298" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbabe96b-de20-68da-66fe-34b8428ab706" executionId="cc1354c0-ce5c-484a-aeb0-448e70e880cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="69aa656d-04f7-4811-acb9-d308ff435d40" testId="6e2f48f0-d5b6-a911-fcf8-1fe0126d5723" testName="insertTabBTest" computerName="WXWINTER" duration="00:00:00.1753328" startTime="2010-03-03T17:03:50.4409746+08:00" endTime="2010-03-03T17:03:50.9659746+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69aa656d-04f7-4811-acb9-d308ff435d40">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at TestProject1.dbManageTest.insertTabBTest() in e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\dbManageTest.cs:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6c7a6e6-f1bd-4890-9550-24a0287a1298" testId="c706a0eb-0c84-adf9-b59d-8a3ab9e78a4b" testName="checkRowIDinTabBTest" computerName="WXWINTER" duration="00:00:00.0075022" startTime="2010-03-03T17:03:50.9739746+08:00" endTime="2010-03-03T17:03:50.9869746+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6c7a6e6-f1bd-4890-9550-24a0287a1298">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at TestProject1.dbManageTest.checkRowIDinTabBTest() in e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\TestProject1\dbManageTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc1354c0-ce5c-484a-aeb0-448e70e880cf" testId="cbabe96b-de20-68da-66fe-34b8428ab706" testName="checkIDinTabATest" computerName="WXWINTER" duration="00:00:00.0028796" startTime="2010-03-03T17:03:50.9899746+08:00" endTime="2010-03-03T17:03:51.0089746+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc1354c0-ce5c-484a-aeb0-448e70e880cf">
+    </UnitTestResult>
+  </Results>
+</TestRun>

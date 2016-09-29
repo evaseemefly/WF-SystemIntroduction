@@ -1,0 +1,14 @@
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.service.dll
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.service.pdb
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\obj\Debug\ResolveAssemblyReference.cache
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\obj\Debug\WcfWfDataLayerSample.service.dll
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\obj\Debug\WcfWfDataLayerSample.service.pdb
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.DB.dll
+e:\myconfig\documents\visual studio 2010\Projects\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.DB.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.service.dll
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.service.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.DB.dll
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\bin\WcfWfDataLayerSample.DB.pdb
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\obj\Debug\ResolveAssemblyReference.cache
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\obj\Debug\WcfWfDataLayerSample.service.dll
+E:\myConfig\Desktop\WFWCF\WcfWfDataLayerSample\WcfWfDataLayerSample.service\obj\Debug\WcfWfDataLayerSample.service.pdb
